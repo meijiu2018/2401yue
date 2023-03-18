@@ -5,275 +5,287 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US【付费推荐：v：mj220202】, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】, server: 203.30.190.191, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: CY【付费推荐：v：mj220202】, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: CA【付费推荐：v：mj220202】, server: 23.227.38.39, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 2, server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 3, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 2, server: 198.41.212.122, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 3, server: 172.67.199.34, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】, server: 190.93.245.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 4, server: 66.235.200.21, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 5, server: 162.159.135.42, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 6, server: 141.101.115.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: NL【付费推荐：v：mj220202】, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: NL【付费推荐：v：mj220202】 2, server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CA【付费推荐：v：mj220202】 2, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 7, server: uicdn.cf, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 4, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 2, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 3, server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 5, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 8, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 4, server: 190.93.244.200, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: CY【付费推荐：v：mj220202】 2, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 5, server: 190.93.246.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: AM【付费推荐：v：mj220202】, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 6, server: 190.93.244.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 6, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: AM【付费推荐：v：mj220202】 2, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 7, server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 7, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 8, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 9, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 10, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 11, server: 141.101.115.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 9, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 8, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 10, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 12, server: 198.41.203.5, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 11, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 13, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 9, server: 190.93.246.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 10, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 14, server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 15, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CY【付费推荐：v：mj220202】 3, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: MO【付费推荐：v：mj220202】, server: 45.64.22.22, port: 443, type: vmess, uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /OB7jTM5cTTrL, ws-headers: {Host: hkbn.pgypgykmoljklj.xyz}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 16, server: 172.67.199.34, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1350195536/63a625eb069d5/, ws-headers: {Host: sg2-v2ray.sshkit.org}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 12, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: AM【付费推荐：v：mj220202】 3, server: 185.162.228.230, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: BZ【付费推荐：v：mj220202】 13, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 17, server: 141.101.114.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: CA【付费推荐：v：mj220202】 3, server: 23.227.38.100, port: 443, type: vmess, uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /UMW36262, ws-headers: {Host: v2ray1.zhujicn2.org}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 18, server: 162.159.128.7, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 11, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 19, server: cacerts.digicert.com, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
-  - {name: KR【付费推荐：v：mj220202】, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /reffs7y26g0ua, ws-headers: {Host: surongwei.eu.org}, udp: true}
-  - {name: NL【付费推荐：v：mj220202】 3, server: 188.114.99.9, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 20, server: news.microsoft.com, port: 443, type: vmess, uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /share, ws-headers: {Host: us.awsbest.com}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 21, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: CA【付费推荐：v：mj220202】 4, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: CR【付费推荐：v：mj220202】 12, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 22, server: 162.159.135.42, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
-  - {name: US【付费推荐：v：mj220202】 23, server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 30x香港咖喱三宝 01-IAPL-R, server: 14.29.191.228, port: 46019, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: AU澳大利亚001, server: ap.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: ap.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: BR巴西流媒体节点001, server: brjs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: brjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: "California, SS - B Group", server: bgroup.node5.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, udp: true}
+  - {name: "California, Tj - B Group", server: bgroup.node5.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, sni: bgroup.node5.t.nodelist-gfwairport1.download, skip-cert-verify: true, udp: true}
+  - {name: "California, V2 - B Group", server: bgroup.node5.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: 106a7e34-1dbd-44b6-9374-a3de81df977d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大001, server: ca.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: ca.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大流媒体节点001, server: cajs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: cajs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: CH瑞士流媒体节点001, server: chjs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: chjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: CL智利流媒体节点001, server: cljs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: cljs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: DE德国流媒体节点001, server: dejs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: dejs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: FR法国流媒体节点001, server: frjs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: frjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: HK 000, server: xh000.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 001, server: xh001.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 003, server: xh003.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 004, server: xh004.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 011, server: xh011.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 012, server: xh012.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 013, server: xh013.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 014, server: xh014.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 022, server: xh022.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: HK 032, server: xh032.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: "Hongkong, SS - B Group", server: bgroup.node4.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, udp: true}
+  - {name: "Hongkong, Tj - B Group", server: bgroup.node4.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, sni: bgroup.node4.t.nodelist-gfwairport1.download, skip-cert-verify: true, udp: true}
+  - {name: "Hongkong, V2 - B Group", server: bgroup.node4.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: 106a7e34-1dbd-44b6-9374-a3de81df977d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "Incheon, SS - B Group", server: bgroup.node2.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, udp: true}
+  - {name: "Incheon, Tj - B Group", server: bgroup.node2.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, sni: bgroup.node2.t.nodelist-gfwairport1.download, skip-cert-verify: true, udp: true}
+  - {name: "Incheon, V2 - B Group", server: bgroup.node2.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: 106a7e34-1dbd-44b6-9374-a3de81df977d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IN印度001, server: in.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: in.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: IT意大利流媒体节点001, server: itjs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: itjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: JP 011, server: xj011.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: JP日本流媒体节点001, server: jpjs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: jpjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: KR韩国001, server: kr.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: kr.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: lu卢森堡001, server: lu.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: lu.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: NF南非001, server: nf.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: nf.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰流媒体节点001, server: nljs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: nljs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: SA沙特阿拉伯流媒体节点001, server: sajs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: sajs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: "Singapore, SS - B Group", server: bgroup.node3.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, udp: true}
+  - {name: "Singapore, V2 - B Group", server: bgroup.node3.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: 106a7e34-1dbd-44b6-9374-a3de81df977d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SWE瑞典流媒体节点001, server: swejs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: swejs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: "Tokyo, SS - B Group", server: bgroup.node1.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 106a7e34-1dbd-44b6-9374-a3de81df977d, udp: true}
+  - {name: "Tokyo, V2 - B Group", server: bgroup.node1.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: 106a7e34-1dbd-44b6-9374-a3de81df977d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW 001, server: xt001.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: TW 002, server: xt002.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: TW 021, server: xt021.xmrthnode.com, port: 443, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: ws-aicdn.com}, udp: true}
+  - {name: UK英国流媒体节点001, server: ukjs.stablize.top, port: 443, type: trojan, password: 206f5880-3d10-4717-aa34-bd812e04d3af, sni: ukjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: 美国大龙虾 03-CF, server: cdn.yuntujisu.ml, port: 80, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: nanous.ytjs114514.ml}, udp: true}
+  - {name: 日本草莓大福 01-IAPL2, server: 36e5404c-1b0c-47e9-80a0-977c68d3f638.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 日本起司泡芙 02-IAPL2, server: ec97cf28-527a-4f01-843f-1e2306b78848.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 狮城海南鸡饭 05-IAPL2, server: c73d5d70-16bf-4f72-a0ef-2ea50c26d50d.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 狮城咖喱鱼头 08-IAPL2, server: 7e211d03-9a3f-4976-9713-499e21774f7f.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 狮城辣椒螃蟹 07-IAPL2, server: 5b2806f4-3361-4674-9acb-5574e54d3dec.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 狮城沙爹串烧 06-IAPL2, server: 57dc969f-c6d4-4028-b845-174a8e01a583.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: a0af77a3-7356-4dd2-8205-84a1fe7ce3a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 香港501 中继 动态, server: db.xmrthnode.com, port: 42001, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /th, ws-headers: {Host: 802941729-server.s0.aicdn.com}, udp: true}
+  - {name: 香港502 中继 动态, server: db.xmrthnode.com, port: 42002, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /th, ws-headers: {Host: 802941729-server.s0.aicdn.com}, udp: true}
+  - {name: 香港503 中继 动态, server: ab.xmrthnode.com, port: 42003, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /th, ws-headers: {Host: 802941729-server.s0.aicdn.com}, udp: true}
+  - {name: 香港504 中继 动态, server: db.xmrthnode.com, port: 42004, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /th, ws-headers: {Host: 802941729-server.s0.aicdn.com}, udp: true}
+  - {name: 香港505 中继 动态, server: ab.xmrthnode.com, port: 42005, type: vmess, uuid: 87153328-a233-3a3e-9e7c-0c950a2d9063, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /th, ws-headers: {Host: 802941729-server.s0.aicdn.com}, udp: true}
+  - {name: 沪港IEPL - 香港 01 HKBGP 解锁Netflix, server: 101.89.143.102, port: 19999, type: vmess, uuid: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 0c96837d-e976-4432-bc06-0aed7c5abdc1.chaoxi.io}, udp: true}
+  - {name: 扬香隧道 - 香港 01 HKBGP 解锁Netflix, server: 223.111.202.220, port: 19999, type: vmess, uuid: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 0c96837d-e976-4432-bc06-0aed7c5abdc1.chaoxi.io}, udp: true}
+  - {name: 沪港 IEPL - 台湾 01 Hinet 解锁Netflix, server: 101.89.143.102, port: 20002, type: trojan, password: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, skip-cert-verify: true, udp: true}
+  - {name: 扬香隧道 - 台湾 01 Hinet 解锁Netflix, server: 223.111.202.220, port: 20002, type: trojan, password: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, skip-cert-verify: true, udp: true}
+  - {name: 沪港 IEPL - 台湾 02 Hinet 解锁Netflix, server: 101.89.143.102, port: 20023, type: trojan, password: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, skip-cert-verify: true, udp: true}
+  - {name: 扬香隧道 - 台湾 02 Hinet 解锁Netflix, server: 223.111.202.220, port: 20023, type: trojan, password: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, skip-cert-verify: true, udp: true}
+  - {name: 扬香隧道 - 美国 03 西芝加哥 解锁Netflix, server: 223.111.202.220, port: 20016, type: trojan, password: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, skip-cert-verify: true, udp: true}
+  - {name: 扬香隧道 - 美国 05 圣何塞 解锁Netflix, server: 223.111.202.220, port: 20018, type: trojan, password: 790862a7-51dc-411a-80e0-efeb4ea6ff0f, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -292,279 +304,303 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 30x香港咖喱三宝 01-IAPL-R
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -580,69 +616,72 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】
-      - CY【付费推荐：v：mj220202】
-      - CA【付费推荐：v：mj220202】
-      - BZ【付费推荐：v：mj220202】 2
-      - BZ【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 3
-      - CR【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 4
-      - US【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 6
-      - NL【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 2
-      - CA【付费推荐：v：mj220202】 2
-      - US【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 5
-      - US【付费推荐：v：mj220202】 8
-      - CR【付费推荐：v：mj220202】 4
-      - CY【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 5
-      - AM【付费推荐：v：mj220202】
-      - CR【付费推荐：v：mj220202】 6
-      - BZ【付费推荐：v：mj220202】 6
-      - AM【付费推荐：v：mj220202】 2
-      - CR【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 7
-      - BZ【付费推荐：v：mj220202】 8
-      - US【付费推荐：v：mj220202】 9
-      - US【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 11
-      - BZ【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 8
-      - BZ【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 12
-      - BZ【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 13
-      - CR【付费推荐：v：mj220202】 9
-      - CR【付费推荐：v：mj220202】 10
-      - US【付费推荐：v：mj220202】 14
-      - US【付费推荐：v：mj220202】 15
-      - CY【付费推荐：v：mj220202】 3
-      - MO【付费推荐：v：mj220202】
-      - US【付费推荐：v：mj220202】 16
-      - BZ【付费推荐：v：mj220202】 12
-      - AM【付费推荐：v：mj220202】 3
-      - BZ【付费推荐：v：mj220202】 13
-      - US【付费推荐：v：mj220202】 17
-      - CA【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 18
-      - CR【付费推荐：v：mj220202】 11
-      - US【付费推荐：v：mj220202】 19
-      - KR【付费推荐：v：mj220202】
-      - NL【付费推荐：v：mj220202】 3
-      - US【付费推荐：v：mj220202】 20
-      - US【付费推荐：v：mj220202】 21
-      - CA【付费推荐：v：mj220202】 4
-      - CR【付费推荐：v：mj220202】 12
-      - US【付费推荐：v：mj220202】 22
-      - US【付费推荐：v：mj220202】 23
+      - 30x香港咖喱三宝 01-IAPL-R
+      - AU澳大利亚001
+      - BR巴西流媒体节点001
+      - California, SS - B Group
+      - California, Tj - B Group
+      - California, V2 - B Group
+      - CA加拿大001
+      - CA加拿大流媒体节点001
+      - CH瑞士流媒体节点001
+      - CL智利流媒体节点001
+      - DE德国流媒体节点001
+      - FR法国流媒体节点001
+      - HK 000
+      - HK 001
+      - HK 003
+      - HK 004
+      - HK 011
+      - HK 012
+      - HK 013
+      - HK 014
+      - HK 022
+      - HK 032
+      - Hongkong, SS - B Group
+      - Hongkong, Tj - B Group
+      - Hongkong, V2 - B Group
+      - Incheon, SS - B Group
+      - Incheon, Tj - B Group
+      - Incheon, V2 - B Group
+      - IN印度001
+      - IT意大利流媒体节点001
+      - JP 011
+      - JP日本流媒体节点001
+      - KR韩国001
+      - lu卢森堡001
+      - NF南非001
+      - NL荷兰流媒体节点001
+      - SA沙特阿拉伯流媒体节点001
+      - Singapore, SS - B Group
+      - Singapore, V2 - B Group
+      - SWE瑞典流媒体节点001
+      - Tokyo, SS - B Group
+      - Tokyo, V2 - B Group
+      - TW 001
+      - TW 002
+      - TW 021
+      - UK英国流媒体节点001
+      - 美国大龙虾 03-CF
+      - 日本草莓大福 01-IAPL2
+      - 日本起司泡芙 02-IAPL2
+      - 狮城海南鸡饭 05-IAPL2
+      - 狮城咖喱鱼头 08-IAPL2
+      - 狮城辣椒螃蟹 07-IAPL2
+      - 狮城沙爹串烧 06-IAPL2
+      - 香港501 中继 动态
+      - 香港502 中继 动态
+      - 香港503 中继 动态
+      - 香港504 中继 动态
+      - 香港505 中继 动态
+      - 沪港IEPL - 香港 01 HKBGP 解锁Netflix
+      - 扬香隧道 - 香港 01 HKBGP 解锁Netflix
+      - 沪港 IEPL - 台湾 01 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 01 Hinet 解锁Netflix
+      - 沪港 IEPL - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 台湾 02 Hinet 解锁Netflix
+      - 扬香隧道 - 美国 03 西芝加哥 解锁Netflix
+      - 扬香隧道 - 美国 05 圣何塞 解锁Netflix
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
