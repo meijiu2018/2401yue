@@ -5,54 +5,57 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港实验性 日用, server: gzdata1.fc-smartcloud.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇯🇵 日本实验性 日用, server: shdata1.fc-smartcloud.xyz, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇯🇵 新加坡实验性 日用, server: gzdata1.fc-smartcloud.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇯🇵 美国实验性 日用, server: shdata1.fc-smartcloud.xyz, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇭🇰 日用 专线 香港 1, server: bepgzbgp01.004837963.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 82f7b729ee.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 日用 专线 狮城 1, server: bepgzbgp01.004837963.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 82f7b729ee.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 日用 专线 日本 1, server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 82f7b729ee.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 日用 专线 美国 1, server: bepshbgp01.004837963.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 82f7b729ee.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 台湾标准 日用 3, server: gzdata1.fc-smartcloud.xyz, port: 11043, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇬🇧 英国标准 日用, server: bjdata1.fc-smartcloud.xyz, port: 11058, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇯🇵 韩国标准 日用, server: shdata1.fc-smartcloud.xyz, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇯🇵 泰国标准 日用, server: gzdata1.fc-smartcloud.xyz, port: 11074, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e1e04027ed.oss-cn-hangzhou.aliyuncs.com}, udp: true}
+  - {name: 🇭🇰 香港实验性 专线, server: gzdata1.fc-smartcloud.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
+  - {name: 🇯🇵 日本实验性 专线, server: shdata1.fc-smartcloud.xyz, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
+  - {name: 🇸🇬 新加坡实验性 专线, server: gzdata1.fc-smartcloud.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
+  - {name: 🇺🇲 美国实验性 专线, server: shdata1.fc-smartcloud.xyz, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
+  - {name: 🇭🇰 日用 专线 香港 专线, server: bepgzbgp01.004837963.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0a8b8fcaed.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 日用 专线 狮城 专线, server: bepgzbgp01.004837963.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0a8b8fcaed.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 日用 专线 日本 专线, server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0a8b8fcaed.iqiyi.com}, udp: true}
+  - {name: 🇺🇲 日用 专线 美国 专线, server: bepshbgp01.004837963.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0a8b8fcaed.iqiyi.com}, udp: true}
+  - {name: 大阪, server: 791ffcdafeb8ff81.cdn.jiashule.com, port: 48434, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
+  - {name: 🇸🇬 新加坡专线, server: 791ffcdafeb8ff81.cdn.jiashule.com, port: 41461, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
+  - {name: 🇸🇬 新加坡专线 2, server: 791ffcdafeb8ff81.cdn.jiashule.com, port: 25898, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
+  - {name: 东京专线, server: 2b010cf9dd3684af.cdn.jiashule.com, port: 48750, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
+  - {name: 东京专线 2, server: 2b010cf9dd3684af.cdn.jiashule.com, port: 26203, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港实验性 日用
-      - 🇯🇵 日本实验性 日用
-      - 🇯🇵 新加坡实验性 日用
-      - 🇯🇵 美国实验性 日用
-      - 🇭🇰 日用 专线 香港 1
-      - 🇸🇬 日用 专线 狮城 1
-      - 🇯🇵 日用 专线 日本 1
-      - 🇺🇲 日用 专线 美国 1
-      - 🇯🇵 台湾标准 日用 3
-      - 🇬🇧 英国标准 日用
-      - 🇯🇵 韩国标准 日用
-      - 🇯🇵 泰国标准 日用
+      - 🇭🇰 香港实验性 专线
+      - 🇯🇵 日本实验性 专线
+      - 🇸🇬 新加坡实验性 专线
+      - 🇺🇲 美国实验性 专线
+      - 🇭🇰 日用 专线 香港 专线
+      - 🇸🇬 日用 专线 狮城 专线
+      - 🇯🇵 日用 专线 日本 专线
+      - 🇺🇲 日用 专线 美国 专线
+      - 大阪
+      - 🇸🇬 新加坡专线
+      - 🇸🇬 新加坡专线 2
+      - 东京专线
+      - 东京专线 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港实验性 日用
-      - 🇯🇵 日本实验性 日用
-      - 🇯🇵 新加坡实验性 日用
-      - 🇯🇵 美国实验性 日用
-      - 🇭🇰 日用 专线 香港 1
-      - 🇸🇬 日用 专线 狮城 1
-      - 🇯🇵 日用 专线 日本 1
-      - 🇺🇲 日用 专线 美国 1
-      - 🇯🇵 台湾标准 日用 3
-      - 🇬🇧 英国标准 日用
-      - 🇯🇵 韩国标准 日用
-      - 🇯🇵 泰国标准 日用
+      - 🇭🇰 香港实验性 专线
+      - 🇯🇵 日本实验性 专线
+      - 🇸🇬 新加坡实验性 专线
+      - 🇺🇲 美国实验性 专线
+      - 🇭🇰 日用 专线 香港 专线
+      - 🇸🇬 日用 专线 狮城 专线
+      - 🇯🇵 日用 专线 日本 专线
+      - 🇺🇲 日用 专线 美国 专线
+      - 大阪
+      - 🇸🇬 新加坡专线
+      - 🇸🇬 新加坡专线 2
+      - 东京专线
+      - 东京专线 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -70,18 +73,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港实验性 日用
-      - 🇯🇵 日本实验性 日用
-      - 🇯🇵 新加坡实验性 日用
-      - 🇯🇵 美国实验性 日用
-      - 🇭🇰 日用 专线 香港 1
-      - 🇸🇬 日用 专线 狮城 1
-      - 🇯🇵 日用 专线 日本 1
-      - 🇺🇲 日用 专线 美国 1
-      - 🇯🇵 台湾标准 日用 3
-      - 🇬🇧 英国标准 日用
-      - 🇯🇵 韩国标准 日用
-      - 🇯🇵 泰国标准 日用
+      - 🇭🇰 香港实验性 专线
+      - 🇯🇵 日本实验性 专线
+      - 🇸🇬 新加坡实验性 专线
+      - 🇺🇲 美国实验性 专线
+      - 🇭🇰 日用 专线 香港 专线
+      - 🇸🇬 日用 专线 狮城 专线
+      - 🇯🇵 日用 专线 日本 专线
+      - 🇺🇲 日用 专线 美国 专线
+      - 大阪
+      - 🇸🇬 新加坡专线
+      - 🇸🇬 新加坡专线 2
+      - 东京专线
+      - 东京专线 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1811,13 +1815,10 @@ rules:
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
-  - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
-  - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
-  - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
   - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
@@ -1865,9 +1866,6 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
-  - DOMAIN-SUFFIX,bilibili.tv,🚀 节点选择
-  - DOMAIN-SUFFIX,bstarstatic.com,🚀 节点选择
-  - DOMAIN,pic-bstarstatic.akamaized.net,🚀 节点选择
   - DOMAIN-KEYWORD,voddazn,🚀 节点选择
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
@@ -2052,8 +2050,10 @@ rules:
   - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
   - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
   - DOMAIN-KEYWORD,openai,🚀 节点选择
+  - DOMAIN,gemini.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
   - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
@@ -2318,6 +2318,7 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
